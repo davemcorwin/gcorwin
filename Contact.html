@@ -146,8 +146,12 @@
                 <fieldset>
                   <legend>Personal Information</legend>
 
-                  <label for="name">Name</label>
-                  <input id="name" name="name" type="text" class="pure-input-2-3">
+                  <label for="name">
+                    <b>Name
+                      <span style="color: red;">*</span>
+                    </b>
+                  </label>
+                  <input id="name" name="name" type="text" class="pure-input-2-3" required>
 
                   <label for="email">
                     <b>Email Address
@@ -254,7 +258,7 @@
                     <a href="Privacy-Policy.html">Privacy Policy</a>
                   </p>
                 </fieldset>
-                <button type="submit" class="pure-button pure-button-primary">Send this message</button>
+                <button type="submit" class="pure-button pure-button-primary">Send</button>
               </form>
 
             </div>
