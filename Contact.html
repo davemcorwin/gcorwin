@@ -142,9 +142,14 @@
                 </strong>
               </p>
 
-              <form class="pure-form pure-form-stacked" name="long-contact-form" action="thank-you" netlify>
+              <form class="pure-form pure-form-stacked" name="long-contact-form" netlify-honeypot="spam-field" action="thank-you" netlify>
                 <fieldset>
                   <legend>Personal Information</legend>
+
+                  <label>
+                    ignore me
+                    <input name="spam-field" type="text">
+                  </label>
 
                   <label for="name">
                     <b>Name
