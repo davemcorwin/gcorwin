@@ -352,13 +352,13 @@ The automatically generated embedded map requires a street address, locality, an
 
       </div>
       <div class="short-form">
-        <form class="pure-form pure-form-stacked" name="short-contact-form" action="thank-you" netlify>
+        <form class="pure-form pure-form-stacked" name="short-contact-form" netlify-honeypot="spam-field" action="thank-you" netlify>
           <fieldset>
             <legend>
               <h4 class="title-contact">How Can We Help You?</h4>
             </legend>
 
-            <label for="name">
+            <input name="spam-field" type="text"> <label for="name">
               <b>Name
                 <span style="color: red;">*</span>
               </b>

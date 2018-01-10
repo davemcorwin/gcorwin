@@ -556,6 +556,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     }
 }
 
-// input[name='spam-field'] {
-//   display: none;
-// }
+input[name='spam-field'] {
+  display: none;
+}
