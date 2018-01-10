@@ -556,6 +556,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     }
 }
 
-input[name='spam-field'] {
+.pure-form-stacked input[name="spam-field"],
+.pure-form input[name="spam-field"] {
   display: none;
 }
