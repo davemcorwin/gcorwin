@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+
+<body class="design home Home">
+  {% include header_nav.html %}
+  {% include banner-large.html %}
+  {% include video_row.html %}
+  <div class="page-wrap">
+    <div class="container-page">
+      <div class="container-columns">
+        <div class="column-main" role="main">
+          {{ content }}
+        </div>
+        <div class="column-side" role="complementary">
+          {% include site_nav.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include honors_and_awards.html %}
+  {% include reputation.html %}
+  <div class="address-wrap">
+    <div class="container-address">
+      {% include location.html %}
+      {% include contact_form.html %}
+    </div>
+  </div>
+  {% include footer.html %}
+</body>
+
+</html>

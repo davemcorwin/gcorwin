@@ -1,0 +1,566 @@
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:0.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}.fl-drop-left ul li ul{left:auto !important;right:100% !important}.fl-drop-left ul li ul li ul{right:auto !important}.fl-drop-right ul li ul{right:auto !important;left:100% !important}.fl-drop-right ul li ul li ul{left:auto !important}.fl-show{display:block !important}.fl-accordion-horizontal .fl-show{display:inline-block !important}#eNewsletter h3,#eNewsletterArticles h3{font-size:1.2em;padding-bottom:1.2em}#eNewsletter h4,#eNewsletterArticles h4{font-size:1.1em;padding-bottom:.3em}#eNewsletter h5,#eNewsletterArticles h5{font-size:1em;padding-bottom:.3em}#eNewsletterArchives .eNewsletterArchivesTopic{display:none}.faqContainerQuestions{float:right;width:200px;margin:0 0 0 10px;border:1px #000 solid;padding:1.2em 1.2em 0 1.2em}ul.faqQuestions{margin:0;padding:0 0 1.2em 0;list-style:none;overflow:visible}ul.faqQuestions li{display:block;padding:0 0 1.2em 0}#faq h3,#faqQuestions h3,#faqArticles h3{font-size:1.2em;padding-bottom:1.2em}#faq h4,#faqQuestions h4,#faqArticles h4{font-size:1.1em;padding-bottom:.3em}#faq h5,#faqQuestions h5,#faqArticles h5{font-size:1em;padding-bottom:.3em}#faqQuestions h3.fl_pafaq_title{display:none}#faqArchives .faqArchivesTopic{display:none}#dynamicProductsCaseSummaries .dynamicProductsCaseSummariesTopic{display:none}#dynamicProductsNews .dynamicProductsNewsTopic{display:none}ul.dynamicProductsNewsList{margin:0;padding:0 0 1.2em 0;list-style:none;overflow:visible}ul.dynamicProductsNewsList li{display:block}.newsCaseSummariesNews h2.newsCaseSummariesNewsTitle{display:none}.newsCaseSummariesCaseSummaries{padding-top:15px;border-top:1px #000 solid}.newsResourcePackColumnNewsArticles{float:left;width:49%;padding:0 1% 1.2em 0}.newsResourcePackArticles{padding-top:15px;border-top:1px #000 solid}.newsResourcePackColumnCaseSummariesFAQ{float:left;width:49%;padding:0 0 1.2em 1%}.newsResourcePackFAQ{padding:15px;border:1px #000 solid}#newsResourcePackQuestions h3.fl_pafaq_title{display:none}#newsResourcePackQuestions h3{font-size:1.2em;padding-bottom:1.2em}#newsResourcePackQuestions h4{font-size:1.1em;padding-bottom:.3em}#newsResourcePackQuestions h5{font-size:1em;padding-bottom:.3em}#newsResourcePack .newsResourcePackNewsTopic{display:none}#newsResourcePack .newsResourcePackArticlesTopic{display:none}#newsResourcePack .newsResourcePackCaseSummariesTopic{display:none}#newsResourcePack .newsResourcePackFAQTopic{display:none}#newsResourcePackQuestions .newsResourcePackQuestionsTopic{display:none}#newsResourcePackArticles .newsResourcePackArticlesTopic{display:none}#newsResourcePackArticleArchives .newsResourcePackArticleArchivesTopic{display:none}.intakeFormError{color:#ff0000;font-weight:bold}#containerIntakeFormI,#containerIntakeFormI *{margin:0;padding:0}#containerIntakeFormI p.intakeFormINote{padding:0}#intakeFormI fieldset{border:none;border-top:1px solid #000;padding:1em 0 0 1.2em;margin:1em 0 0}#intakeFormI fieldset legend{font-weight:bold}#ie #intakeFormI fieldset legend{margin:0 0 0 -.6em}#intakeFormI fieldset label{cursor:pointer}#intakeFormI fieldset .formHide{display:none}#intakeFormI fieldset #formError{display:block;cursor:default;color:#f00;clear:both}#intakeFormI fieldset #formError strong{font-weight:normal}#intakeFormI fieldset label.formDescribeIssue{float:left;margin:.2em 0}#intakeFormI fieldset div.formCheck label{margin:0 3em 0 0}#intakeFormI fieldset div.formCheck label[for="intakeFormIDisclaimerCheck"]{margin:0}#intakeFormI fieldset input,#intakeFormI fieldset select{display:block;width:20.5em;margin:.2em 0 .5em 0;padding:2px}#intakeFormI fieldset input.intakeFormHiddenInput{padding:0}#intakeFormI fieldset div.formHighlight *{border:1px solid #aaa}#intakeFormI fieldset div.formHighlight *:hover,#intakeFormI fieldset div.formHighlight *:focus{background:#ffc}#intakeFormI fieldset select{width:21em}#intakeFormI fieldset label input{display:inline;width:2em;margin:0}#intakeFormI fieldset textarea{clear:left;display:block;width:25em;height:10em;padding:2px;margin:.2em 0 0 0}#intakeFormI fieldset p{margin:.5em 0}#intakeFormI fieldset div.formCheck{margin:.5em 0}#intakeFormI fieldset .formCheck input{background:none}#intakeFormI img.formDisclaimer{float:left;margin:0 1em 0 0}#intakeFormISubmit{width:12.5em;height:2.5em;margin:.5em 0}#containerIntakeFormShort,#containerIntakeFormShort *,#containerIntakeFormShortAutofill,#containerIntakeFormShortAutofill *{margin:0;padding:0}#intakeFormShort fieldset,#intakeFormShortAutofill fieldset{border:none}#intakeFormShort fieldset legend span,#intakeFormShort fieldset label span,#intakeFormShortAutofill fieldset legend span,#intakeFormShortAutofill fieldset label span,#intakeFormShortAutofill fieldset label.formLabelHide{position:absolute;left:-9000em}#intakeFormShort fieldset label,#intakeFormShortAutofill fieldset label{cursor:pointer}#intakeFormShort fieldset .formHide,#intakeFormShortAutofill fieldset label.formHide{display:none}#intakeFormShort fieldset #formError strong,#intakeFormShortAutofill fieldset #formError strong{font-weight:normal}#intakeFormShort fieldset input.intakeFormHiddenInput,#intakeFormShortAutofill fieldset input.intakeFormHiddenInput{padding:0}#intakeFormShort fieldset textarea,#intakeFormShortAutofill fieldset textarea{height:80px}#intakeFormShort fieldset .formCheck,#intakeFormShortAutofill fieldset .formCheck{display:block;line-height:1.5em}#intakeFormShort fieldset label input,#intakeFormShortAutofill fieldset label input{display:inline;width:20px;margin:0 0 0 -3px;padding:0}#intakeFormShort fieldset input.checkbox,#intakeFormShortAutofill fieldset input.checkbox{background:none}#intakeFormShortDisclaimer{display:none;width:200px;font-size:12px;position:relative}#intakeFormShortDisclaimer div{border:2px solid #333;background:#fff;color:#000;padding:5px;position:absolute;top:0;left:0}#intakeFormShortDisclaimer p{clear:both;overflow:auto;padding:10px 15px .8em;font-family:Verdana, Geneva, sans-serif}#intakeFormShortDisclaimer a{display:block;margin:0 15px 0 0;color:#00f;font-weight:bold;text-decoration:none}#containerIntakeFormShort,#containerIntakeFormShortAutofill{font-size:.91em;font-family:Verdana, Geneva, sans-serif}#containerIntakeFormShort p,#containerIntakeFormShortAutofill p{padding:0 0 .5em 0}#intakeFormShort fieldset #formError,#intakeFormShortAutofill fieldset #formError{display:block;cursor:default;color:#f00}#intakeFormShortAutofill fieldset #formError{padding:0 0 2px 0}#intakeFormShort fieldset input,#intakeFormShort fieldset textarea,#intakeFormShortAutofill fieldset input,#intakeFormShortAutofill fieldset textarea{display:block;width:150px;font-family:Verdana, Geneva, sans-serif;margin:.2em 0 .5em 0;padding:3px}#intakeFormShort fieldset div.formHighlight *,#intakeFormShortAutofill fieldset div.formHighlight *{border:1px solid #aaa}#intakeFormShort fieldset div.formHighlight *:hover,#intakeFormShort fieldset div.formHighlight *:focus,#intakeFormShortAutofill fieldset div.formHighlight *:hover,#intakeFormShortAutofill fieldset div.formHighlight *:focus{background:#ffc}#intakeFormShortSubmit,#intakeFormShortAutofillSubmit{width:auto;height:auto;margin:.5em 0}#containerSearchFormDesign,#searchFormDesign{margin:0;padding:0}#searchFormDesign #searchFormDesignSearchTerms{margin:0;padding:0;width:150px;border:1px solid #ccc}#searchFormDesign #searchFormDesignSearchTerms:focus,#searchFormDesign #searchFormDesignSearchTerms:hover{border-color:#000}#searchFormDesign #searchFormDesignSubmit{width:auto;height:auto;display:inline;vertical-align:top}#searchFormDesign label{cursor:pointer}#searchFormDesign .formLabelHide{position:absolute;left:-5000px}.map-module{margin:10px 0}@media only screen and (max-width: 600px){.content input[type="text"],.content textarea,.content fieldset select{width:90% !important}#intakeFormI input[type="text"],#intakeFormI textarea,#intakeFormI fieldset select,#emailObfuscation input[type="text"],#emailObfuscation fieldset textarea,#emailObfuscation fieldset select{width:90% !important}}#practicePageSide{float:right;width:182px;margin:0 0 0 15px}#practicePageFormShort{border:solid 1px #000000;padding:10px 15px;width:152px;margin:0 0 15px 0}#practicePageFormShort form{margin:0}#practicePageFormShort p{padding:0;margin:0}#practicePageFormShort br{line-height:0}#practicePageFormShort a{margin:10px 0 0 0;display:block}#practicePageFormShort .practicePageFormShortHeader{font-weight:bold}#practicePageFormShort .practicePageFormShortHeaderLine2{margin:0 0 10px 0}#practicePageFormShort input{margin-bottom:5px}#practicePageFormShort .practicePageFormSubmit{width:73px}#practicePageCallToAction{border:solid 1px #000000;background-color:#cccccc;color:#333333;padding:10px;margin:0 0 15px 0}#ie6 #practicePageCallToAction{width:164px}#practicePageCallToAction p{margin:0;padding:10px}#practicePageSidebar2{padding:10px;border:solid 1px #000000;background-color:#eeeeee;color:#333333;margin:0 0 15px 0}#ie6 #practicePageSidebar2{width:165px}#practicePageFAQAbstract{border:solid 1px #000000;padding:10px 15px}#ie6 #practicePageFAQAbstract{width:155px}#practicePageLinksAbstract{border:solid 1px #000000;padding:10px 15px}#practicePageSidebar1{padding:10px;border:solid 1px #000000;background-color:#eeeeee;color:#333333;margin:15px 197px 15px 0}#ie #practicePageSidebar1{display:inline-block}.practicePageError{color:#ff0000;font-weight:bold}#practiceCenterSide{float:right;width:182px;margin:0 0 0 15px}#practiceCenterFormShort{border:solid 1px #000000;padding:10px 15px;margin:0 0 15px 0}#practiceCenterFormShort form{margin:0}#practiceCenterFormShort p{padding:0;margin:0}#practiceCenterFormShort br{line-height:0}#practiceCenterFormShort a{margin:10px 0 0 0;display:block}#practiceCenterFormShort .practiceCenterFormShortHeader{font-weight:bold}#practiceCenterFormShort .practiceCenterFormShortHeaderLine2{margin:0 0 10px 0}#practiceCenterFormShort input{margin-bottom:5px}#practiceCenterFormShort .practiceCenterFormSubmit{width:73px}#practiceCenterCallToAction{border:solid 1px #000000;background-color:#cccccc;color:#333333;padding:10px;margin:0 197px 15px 0}#ie6 #practiceCenterCallToAction{margin-right:202px}#practiceCenterCallToAction p{margin:0;padding:10px}#practiceCenterSidebar2{padding:10px;border:solid 1px #000000;background-color:#eeeeee;color:#333333;margin:0 0 15px 0}#ie6 #practiceCenterSidebar2{width:165px}#practiceCenterResourceLinksAbstract hr{height:1px;border:none;border-top:1px solid #000000;margin:0 0 10px 0}#practiceCenterSidebar1{padding:10px;border:solid 1px #000000;background-color:#eeeeee;color:#333333;margin:15px 197px 15px 0}#ie #practiceCenterSidebar1{display:inline-block}#practiceCenterFAQAbstract{border:solid 1px #000000;padding:10px 15px}#ie6 #practiceCenterFAQAbstract{width:155px}ul.practiceCenterNewsList{margin:0;padding:0 0 1.2em 0;list-style:none;overflow:visible}ul.practiceCenterNewsList li{display:block}#practiceCenterFamilyLawCalculator{background-color:#eeeeee;border:solid 1px #000000;padding:10px 15px;width:150px;margin:0 0 15px 0}#practiceCenterFamilyLawCalculator .practiceCenterFamilyLawCalculatorHeader{font-weight:bold}#practiceCenterFamilyLawCalculator form{margin:0}.practiceCenterError{color:#ff0000;font-weight:bold}#practiceCenterNavigation{border:solid 1px #000000;margin:0 0 15px 0}#practiceCenterNavigation ul{list-style:none;margin:0;padding:10px 10px 0 10px}#practiceCenterNavigation li{margin:0 0 10px 0}.practiceCenterTitle{display:none}@media only screen and (max-width: 978px){#practiceCenterSide{width:auto;float:none;margin:0}#practiceCenterSide input,#practiceCenterSide textarea{width:100% !important}}.flex-container a:active,.flexslider a:active,.flex-container a:focus,.flexslider a:focus{outline:none}.slides,.flex-control-nav,.flex-direction-nav{margin:0;padding:0;list-style:none}.flexslider{margin:0;padding:0}.flexslider .slides>li{display:none;-webkit-backface-visibility:hidden}.flexslider .slides img{width:100%;display:block}.flex-pauseplay span{text-transform:capitalize}.slides:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}html[xmlns] .slides{display:block}* html .slides{height:1%}.no-js .slides>li:first-child{display:block}.flexslider{margin:0 0 60px;background:#fff;border:4px solid #fff;position:relative;-webkit-border-radius:4px;-moz-border-radius:4px;-o-border-radius:4px;border-radius:4px;box-shadow:0 1px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.2);-moz-box-shadow:0 1px 4px rgba(0,0,0,0.2);-o-box-shadow:0 1px 4px rgba(0,0,0,0.2);zoom:1}.flex-viewport{max-height:2000px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;transition:all 1s ease}.loading .flex-viewport{max-height:300px}.flexslider .slides{zoom:1}.carousel li{margin-right:5px}.flex-direction-nav{*height:0}.flex-direction-nav a{width:30px;height:30px;margin:-20px 0 0;display:block;position:absolute;top:50%;z-index:10;cursor:pointer;text-indent:-9999px;opacity:0;-webkit-transition:all .3s ease}.flex-direction-nav .flex-next{background-position:100% 0;right:-36px}.flex-direction-nav .flex-prev{left:-36px}.flexslider:hover .flex-next{opacity:0.8;right:5px}.flexslider:hover .flex-prev{opacity:0.8;left:5px}.flexslider:hover .flex-next:hover,.flexslider:hover .flex-prev:hover{opacity:1}.flex-direction-nav .flex-disabled{opacity:0.3 !important;filter:alpha(opacity=30);cursor:default}.flex-control-nav{width:100%;position:absolute;bottom:-40px;text-align:center}.flex-control-nav li{margin:0 6px;display:inline-block;zoom:1;*display:inline}.flex-control-paging li a{width:11px;height:11px;display:block;background:#666;background:rgba(0,0,0,0.5);cursor:pointer;text-indent:-9999px;-webkit-border-radius:20px;-moz-border-radius:20px;-o-border-radius:20px;border-radius:20px;box-shadow:inset 0 0 3px rgba(0,0,0,0.3)}.flex-control-paging li a:hover{background:#333;background:rgba(0,0,0,0.7)}.flex-control-paging li a.flex-active{background:#000;background:rgba(0,0,0,0.9);cursor:default}.flex-control-thumbs{margin:5px 0 0;position:static;overflow:hidden}.flex-control-thumbs li{width:25%;float:left;margin:0}.flex-control-thumbs img{width:100%;display:block;opacity:.7;cursor:pointer}.flex-control-thumbs img:hover{opacity:1}.flex-control-thumbs .flex-active{opacity:1;cursor:default}@media screen and (max-width: 860px){.flex-direction-nav .flex-prev{opacity:1;left:0}.flex-direction-nav .flex-next{opacity:1;right:0}}.mceContentBody{background:#F7F7F7}.smallText{font-size:.9em}@media only screen and (max-width: 400px){#attorneyProfile img.attorneyProfilePhoto{float:none}}#attorneyProfile ul{padding-left:0;list-style:none}#attorneyProfile img.attorneyProfilePhoto{float:right;margin:0 0 10px 15px}#attorneyProfile div.attorneyProfileNarrative ul{list-style:disc;padding:0 0 0 2em}#attorneyProfile div.attorneyProfileNarrative ul li{padding:3px 0 3px 0}#attorneyProfile div.attorneyProfileSection ul{margin-left:20px}#attorneyProfile div.attorneyProfileSection ul li{padding:3px 0 3px 0}#attorneyProfile div.attorneyProfileSection ul li ul li{padding:0 0 0 0}#attorneyProfile div.attorneyProfileSection p{padding:3px 0 3px 20px}#attorneyProfile .attorneyProfileName{padding-bottom:0;display:none}#attorneyProfile .attorneyProfilePositions{padding-bottom:1.2em}#attorneyProfile .attorneyProfileLocationLabel,#attorneyProfile .attorneyProfilePhoneLabel,#attorneyProfile .attorneyProfileFaxLabel,#attorneyProfile .attorneyProfileEmailLabel,#attorneyProfile .attorneyProfileVCardLabel{width:6em;float:left;font-weight:bold}#attorneyProfile .attorneyProfileLocation,#attorneyProfile .attorneyProfilePhone,#attorneyProfile .attorneyProfileFax,#attorneyProfile .attorneyProfileEmail,#attorneyProfile .attorneyProfileVCard{margin-left:6em;padding-bottom:.6em}#ie6 #attorneyProfile .attorneyProfileLocation,#ie6 #attorneyProfile .attorneyProfilePhone,#ie6 #attorneyProfile .attorneyProfileFax,#ie6 #attorneyProfile .attorneyProfileEmail,#ie6 #attorneyProfile .attorneyProfileVCard{display:inline-block}#attorneyProfile .attorneyProfileEducation ul li strong{display:block}#attorneyProfile .attorneyProfileContactInformation{padding-bottom:1.2em}#containerEmailObfuscation,#containerEmailObfuscation *{margin:0;padding:0}#containerEmailObfuscation p.emailObfuscationNote{padding:0}#emailObfuscation fieldset{border:none;border-top:1px solid #000;padding:1em 0 0 1.2em;margin:1em 0 0}#emailObfuscation fieldset legend{font-weight:bold}#ie #emailObfuscation fieldset legend{margin:0 0 0 -.6em}#emailObfuscation fieldset label{cursor:pointer}#emailObfuscation fieldset label.formDescribeIssue{float:left;margin:.2em 0}#emailObfuscation fieldset .formHide{display:none}#emailObfuscation fieldset #formError{display:block;cursor:default;color:#f00;clear:both}#emailObfuscation fieldset #formError strong{font-weight:normal}#emailObfuscation fieldset input{display:block;width:20.5em;margin:.2em 0 .5em 0;padding:2px}#emailObfuscation fieldset input.intakeFormHiddenInput{padding:0}#emailObfuscation fieldset textarea{clear:left;display:block;width:25em;height:10em;padding:2px;margin:.2em 0 0 0}#emailObfuscation fieldset div.formHighlight *{border:1px solid #aaa}#emailObfuscation fieldset div.formHighlight *:hover,#emailObfuscation fieldset div.formHighlight *:focus{background:#ffc}#emailObfuscation fieldset p{margin:.5em 0}#emailObfuscation fieldset div.formCheck{margin:.2em 0}#emailObfuscation fieldset .formCheck input{background:none}#emailObfuscation fieldset label input{display:inline;width:2em}#emailObfuscation fieldset .formHasJavaScript{display:none}#emailObfuscation fieldset p img{float:left;margin:0 1em 0 0}input#emailObfuscationSubmit{width:12.5em;height:2.5em;margin:.5em 0}#searchResults dd{margin:0 0 1.2em 0}#searchResults .searchResultsHighlight{font-weight:bold}#searchResults ul.searchResultsPagination,#searchResults ul.searchResultsPagination li{margin:0;padding:0;float:left;list-style:none}#searchResults ul.searchResultsPagination li{display:block;margin-right:.25em}.eNewsletterDesignModule{padding:5px}.faqDesignModule{padding:5px}.faqDesignModule ul.faqDesignModuleList{margin:0;padding:0;list-style:none;overflow:visible}.faqDesignModule ul.faqDesignModuleList li{display:block;padding:0 0 1.2em 0}.newsDesignModule{padding:5px}.newsDesignModule ul.newsDesignModuleList{margin:0;padding:0;list-style:none;overflow:visible}.newsDesignModule ul.newsDesignModuleList li{display:block;padding:0 0 1.2em 0}@media only screen and (max-width: 978px){.content iframe{width:100%}}.office{padding:0 0 15px 0}.office-last{padding:0}.office-embedded-map{position:relative;height:0;padding-bottom:80%;margin:0 0 15px 0}.office-embedded-map iframe{width:100%;position:absolute;height:100%}.office-photo img{max-width:100%;height:auto}/*! /* TinyMCE Style: callOut=Call Out */.fontColor000000{color:#000}.fontColorC0C0C0{color:#C0C0C0}.fontColor000080{color:#000080}.fontColor008000{color:#008000}.fontColor008080{color:#008080}.fontColor800000{color:#800000}.fontColor800080{color:#800080}.fontColor808000{color:#808000}.fontColor808080{color:#808080}.fontColorFFFFFF{color:#FFF}.fontColor0000FF{color:#00F}.fontColor00FF00{color:#0F0}.fontColor00FFFF{color:#0FF}.fontColorFF0000{color:#F00}.fontColorFF00FF{color:#F0F}.fontColorFFFF00{color:#FF0}.backgroundColor000000{background:#000}.backgroundColorC0C0C0{background:#C0C0C0}.backgroundColor000080{background:#000080}.backgroundColor008000{background:#008000}.backgroundColor008080{background:#008080}.backgroundColor800000{background:#800000}.backgroundColor800080{background:#800080}.backgroundColor808000{background:#808000}.backgroundColor808080{background:#808080}.backgroundColorFFFFFF{background:#FFF}.backgroundColor0000FF{background:#00F}.backgroundColor00FF00{background:#0F0}.backgroundColor00FFFF{background:#0FF}.backgroundColorFF0000{background:#F00}.backgroundColorFF00FF{background:#F0F}.backgroundColorFFFF00{background:#FF0}*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.printElement{display:none}.offscreen{text-indent:-9999em;padding:0;background-repeat:no-repeat;background-position:0 0;display:block;overflow:hidden;list-style:none}.offscreen br{display:none}.clearfix:before{content:"";display:table}.clearfix:after{content:"";display:table;clear:both}.btn-togglebox{display:none;text-decoration:none}@media (max-width: 650px){.btn-togglebox{display:block}}
+
+.togglebox-close{display:none}@media (max-width: 650px){.togglebox-close{display:block}}
+/* Findlaw CSS */
+html{font-size:62.5%}body{font-size:16px;font-size:1.6rem}a{color:#2a3182}a:visited{color:#109949}a:hover,a:focus{color:#109949}a:active,a .current{color:#333333;text-decoration:none}h2,h3,h4,h5,h6{font-family:"Source Sans Pro",sans-serif;font-weight:700;font-size:22px;color:#333333;line-height:1.2}@media (max-width: 730px){h2,h3,h4,h5,h6{font-size:20px}}
+td img{max-width:none}img{max-width:100%}.submit{max-width:100%}.header-page,.container-banner,.container-page,.container-awards,.container-badges,.container-address,.container-video,.footer-page{*zoom:expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");*zoom:1;margin:0 auto;max-width:978px}.header-page:before,.header-page:after,.container-banner:before,.container-banner:after,.container-page:before,.container-page:after,.container-awards:before,.container-awards:after,.container-badges:before,.container-badges:after,.container-address:before,.container-address:after,.container-video:before,.container-video:after,.footer-page:before,.footer-page:after{content:".";display:block;height:0;overflow:hidden}.header-page:after,.container-banner:after,.container-page:after,.container-awards:after,.container-badges:after,.container-address:after,.container-video:after,.footer-page:after{clear:both}@media (max-width: 998px){.header-page,.container-banner,.container-page,.container-awards,.container-badges,.container-address,.container-video,.footer-page{padding:0 10px}}
+.brand{float:left;display:block;margin:37px 0 31px}@media (max-width: 850px){.brand{width:40%}}@media (max-width: 750px){.brand{width:auto;display:table;margin:15px auto;float:none}}
+.brand-image{max-width:100%}.cta-nav{float:right;margin:26px 0 18px}@media (max-width: 750px){.cta-nav{float:none;margin:0}}
+.cta{*zoom:expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");*zoom:1;text-align:right;color:#616161;font-size:18px;font-family:"Source Sans Pro",sans-serif}.cta:before,.cta:after{content:".";display:block;height:0;overflow:hidden}.cta:after{clear:both}.cta img{display:inline-block;margin:0 8px}.cta span{color:#2a3182;font-size:30px;font-weight:700;margin-left:2px}@media (max-width: 750px){.cta span{font-size:25px}}.cta a{text-decoration:none;font-size:25px;color:#2a3182}@media (max-width: 750px){.cta{text-align:center}}
+@media (max-width: 400px){.home .cta span{display:block}}
+.mob-btn-wrap{*zoom:expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");*zoom:1;max-width:320px;margin:10px auto;display:none;font-size:18px;font-weight:700;text-align:center;font-family:"Source Sans Pro",sans-serif;text-transform:uppercase}.mob-btn-wrap:before,.mob-btn-wrap:after{content:".";display:block;height:0;overflow:hidden}.mob-btn-wrap:after{clear:both}@media (max-width: 650px){.mob-btn-wrap.btn-togglebox{display:block;padding:10px;text-transform:uppercase;color:#0d223d}}@media (max-width: 650px){.mob-btn-wrap{display:block}}
+a.btn-nav-main{display:none;width:47%;float:left;background:#2a3182;color:#fff;position:relative;padding:15px 10px 15px;border-radius:5px;border-top:solid 2px #4c51e7}a.btn-nav-main span{position:relative}a.btn-nav-main span:before{content:"";position:absolute;right:0;top:6px;left:-21px;width:13px;height:2px;background:#fff;box-shadow:0 4px 0 0 #fff, 0 9px 0 0 #fff}@media (max-width: 650px){a.btn-nav-main{display:block}}
+a.btn-contact{display:none;width:47%;float:right;background:#109949;color:#fff;padding:15px 10px;text-decoration:none;border-radius:5px;border-top:solid 2px #1deb83}@media (max-width: 650px){a.btn-contact{display:block}}
+.nav-main{*zoom:expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");*zoom:1;clear:both}.nav-main:before,.nav-main:after{content:".";display:block;height:0;overflow:hidden}.nav-main:after{clear:both}.nav-main ul{padding:0;margin:0;list-style-type:none}.nav-main ul li{float:left}.nav-main ul li a{text-decoration:none;display:block;font-size:18px;font-family:"Source Sans Pro",sans-serif;color:#000000;padding:15px 11px}.nav-main ul li a:hover,.nav-main ul li a:focus,.nav-main ul li a:active,.nav-main ul li a.current{color:#12a151}@media (max-width: 650px){.nav-main ul li a:hover,.nav-main ul li a:focus,.nav-main ul li a:active,.nav-main ul li a.current{color:#109949}}@media (max-width: 650px){.nav-main ul li a{font-size:16px;color:#ffffff;padding:10px 12px}}.nav-main ul li.itemLast a{padding-right:0}@media (max-width: 650px){.nav-main ul li.itemLast a{padding-right:12px}}.nav-main ul li.toggelebox-close{display:none}@media (max-width: 650px){.nav-main ul li.toggelebox-close{display:block}}@media (max-width: 650px){.nav-main ul li{float:none;border-bottom:solid 1px #fff}.nav-main ul li.toggelebox-close{border-bottom:none}}@media (max-width: 750px){.nav-main{margin:0 auto;display:table}}@media (max-width: 650px){.nav-main{display:none;background:#1f1f21;margin-bottom:10px}}
+.search-wrap{display:none;border-radius:5px;background:#e8e8ed;font-family:"Source Sans Pro",sans-serif}@media (max-width: 650px){.search-wrap{margin:10px auto;clear:both;width:45%;display:block}}@media (max-width: 550px){.search-wrap{width:70%}}@media (max-width: 400px){.search-wrap{width:100%}}
+#containerSearchFormDesign,#searchFormDesign{margin:0;padding:0;position:relative}#searchFormDesign #searchFormDesignSearchTerms{font-weight:400;color:#1f1f21;line-height:1;font-size:15px;margin:0;width:100%;padding:9px 0px 9px 15px;border:none;border-radius:22px;background:#e8e8ed}#searchFormDesign #searchFormDesignSearchTerms:focus,#searchFormDesign #searchFormDesignSearchTerms:hover{background:#e8e8ed}#searchFormDesign #searchFormDesignSubmit{position:absolute;top:11px;right:15px}.banner-wrap{background:#191920 url(../images/banner2.jpg) no-repeat center top;min-height:187px}@media (max-width: 930px){.banner-wrap{background:#191920 url(../images/banner2.jpg) no-repeat left -196px top}}@media (max-width: 700px){.banner-wrap{background:none;background-color:#191920;min-height:0}}
+.home .banner-wrap{background:#191920 url(../images/banner-home2.jpg) no-repeat center top;min-height:506px}@media (max-width: 998px){.home .banner-wrap{background-size:contain;min-height:inherit;padding:0 0 30px}}@media (max-width: 760px){.home .banner-wrap{background:none;background-color:#191920;padding:15px 0}}
+.tagline{color:#fff;text-align:right;font-family:"Source Sans Pro",sans-serif;font-size:36px;font-weight:700;margin-top:70px}@media (max-width: 998px){.tagline{font-size:30px}}@media (max-width: 930px){.tagline{font-size:25px}}@media (max-width: 700px){.tagline{text-align:center;line-height:1.2;margin:20px 0}}
+.home .tagline{width:57.05521%;float:right;margin-left:0;margin-right:0;clear:none;text-align:left;width:53%;padding-right:4%;font-size:56px;margin-top:76px;line-height:1.13}.home .tagline .sub-banner-text{display:block;font-size:20px;font-weight:400;margin-top:15px;line-height:1.4}@media (max-width: 809px){.home .tagline .sub-banner-text{font-size:18px}}.home .tagline span{display:block;font-weight:700}@media (max-width: 760px){.home .tagline span{display:inline-block}}.home .tagline a{display:block;text-decoration:none;font-size:18px;font-family:"Source Sans Pro",sans-serif;padding:14px 28px;border-radius:5px;background:#2a2d89 url(../images/arrow.png) no-repeat 86% 18px;text-transform:uppercase;color:#fff;margin-left:8px;width:51%;margin-top:34px}.home .tagline a:hover,.home .tagline a:focus,.home .tagline a:active,.home .tagline a.current{background:#fff url(../images/arrow-hover.png) no-repeat 86% 18px;color:#2a3182}@media (max-width: 960px){.home .tagline a{width:70%}}@media (max-width: 760px){.home .tagline a{display:none}}@media (max-width: 998px){.home .tagline{margin-top:25px}}@media (max-width: 971px){.home .tagline{font-size:47px}}@media (max-width: 965px){.home .tagline{font-size:30px}}@media (max-width: 809px){.home .tagline{font-size:26px}}@media (max-width: 760px){.home .tagline{text-align:center;width:auto;margin:0 auto;padding:0;float:none}}
+.legal{display:block;width:55%;float:left}.legal span{display:block}@media (max-width: 730px){.legal span{display:inline}}.legal h4{color:#333333;font-size:32px;font-family:"Source Sans Pro",sans-serif;font-weight:700;margin-bottom:25px}@media (max-width: 730px){.legal h4{font-size:27px;margin-bottom:0}}.legal p{color:#333;font-size:18px;font-family:"Source Sans Pro",sans-serif;line-height:1.66}@media (max-width: 730px){.legal{width:auto;float:none;margin:0 auto}}
+.video-wrap{background:#f8f8f8;padding-bottom:30px}.home .video{width:45%;display:none;margin-top:38px;float:right;text-align:right;padding-left:64px}@media (max-width: 730px){.home .video{width:auto;display:nonefloat:none;margin:0 auto;padding:0}}
+.container-columns{*zoom:expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");*zoom:1}.container-columns:before,.container-columns:after{content:".";display:block;height:0;overflow:hidden}.container-columns:after{clear:both}.column-main{width:65.64417%;float:right;margin-left:0;margin-right:0;clear:none;margin-top:50px;padding-left:13px;margin-bottom:50px}@media (max-width: 850px){.column-main{margin:25px 0}}@media (max-width: 730px){.column-main{margin:0;width:auto;float:none;padding:0 5px}}
+.column-side{width:31.28834%;float:left;margin-right:-100%;margin-left:0%;clear:none;margin-top:41px;padding-right:18px;margin-bottom:50px}@media (max-width: 850px){.column-side{margin:25px 0}}@media (max-width: 730px){.column-side{margin:0 auto;width:auto;float:none;padding:0}}
+.page-title{font-family:"Source Sans Pro",sans-serif;font-size:32px;font-weight:700;color:#333333;margin-bottom:11px}@media (max-width: 730px){.page-title{font-size:27px;margin-bottom:0}}
+.content{*zoom:expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");*zoom:1;color:#333;font-size:18px;font-family:"Source Sans Pro",sans-serif;line-height:1.66}.content:before,.content:after{content:".";display:block;height:0;overflow:hidden}.content:after{clear:both}.content .callOut{padding:20px;border-left:8px solid #109949}@media (max-width: 730px){.content{font-size:16px}}
+.practice-mobile{display:none}@media (max-width: 730px){.practice-mobile{display:block}}
+@media (max-width: 730px){.practice-desktop{display:none}}
+a.btn-nav-practice{display:none;position:relative;max-width:275px;margin:10px auto;text-align:center;font-size:18px;background:#2a3182;color:#fff;position:relative;padding:15px 10px 15px;border-radius:5px;border-top:solid 2px #4c51e7;font-family:"Source Sans Pro",sans-serif;text-transform:uppercase}a.btn-nav-practice span{position:relative}a.btn-nav-practice span:before{content:"";position:absolute;right:0;top:6px;left:-21px;width:13px;height:2px;background:#fff;box-shadow:0 4px 0 0 #fff, 0 9px 0 0 #fff}@media (max-width: 730px){a.btn-nav-practice{display:block}}
+.title-practice{border-top:4px solid #d3d3d3;padding-top:14px;font-size:32px;font-family:"Source Sans Pro",sans-serif;font-weight:400;margin-left:4px;margin-bottom:23px}@media (max-width: 850px){.title-practice{font-size:27px}}@media (max-width: 730px){.title-practice{display:none}}
+.nav-practice{*zoom:expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");*zoom:1}.nav-practice:before,.nav-practice:after{content:".";display:block;height:0;overflow:hidden}.nav-practice:after{clear:both}.nav-practice ul{padding:0;margin:0;list-style-type:none}.nav-practice ul li{margin-bottom:11px}.nav-practice ul li a{display:block;text-decoration:none;padding:13px 15px 13px 55px;border-radius:5px;font-size:18px;color:#000000;font-family:"Source Sans Pro",sans-serif;background:#e8e8ed;position:relative}.nav-practice ul li a:before{content:'';border-top-left-radius:5px;border-bottom-left-radius:5px;position:absolute;background:#109949 url(../images/arrow.png) no-repeat 13px 45%;width:14%;height:100%;left:0;top:0}@media (max-width: 850px){.nav-practice ul li a:before{width:20%}}@media (max-width: 730px){.nav-practice ul li a:before{display:none}}.nav-practice ul li a:hover,.nav-practice ul li a:focus,.nav-practice ul li a:active,.nav-practice ul li a.current{background:#109949 url(../images/arrow.png) no-repeat 16px 45%;color:#ffffff}@media (max-width: 730px){.nav-practice ul li a:hover,.nav-practice ul li a:focus,.nav-practice ul li a:active,.nav-practice ul li a.current{background:none;color:#109949}}@media (max-width: 730px){.nav-practice ul li a{font-size:16px;color:#ffffff;padding:10px 12px;background:#1f1f21;border-radius:0}}.nav-practice ul li ul{display:none}@media (max-width: 730px){.nav-practice ul li{border-bottom:solid 1px #fff;margin:0}.nav-practice ul li.togglebox-close{border-bottom:none}}@media (max-width: 730px){.nav-practice{display:none;background:#1f1f21;margin:0 0 10px}.nav-practice .togglebox-close{display:block}.nav-practice .togglebox-close a{font-size:16px;color:#ffffff;padding:10px 12px;background:#1f1f21;border-radius:0;text-decoration:none;border-bottom:none;display:block}.nav-practice .togglebox-close a:hover,.nav-practice .togglebox-close a:focus,.nav-practice .togglebox-close a:active,.nav-practice .togglebox-close a.current{background:none;color:#109949}}
+@media (max-width: 998px){.flv-player-wrapper{min-width:inherit}}
+@media (max-width: 730px){.flv-player-wrapper.flv-sm{max-width:100%}}
+@media (max-width: 730px){.flv-player-wrapper.flv-md{max-width:100%}}
+a.articles{margin:22px 0 29px;display:block;padding:16px 23px;text-decoration:none;font-family:"Source Sans Pro",sans-serif;color:#fff;background:#2a2d89;border-radius:5px;font-size:30px}a.articles:hover,a.articles:focus,a.articles:active,a.articles.current{background:#109949}a.articles img{display:inline-block;margin-right:20px}@media (max-width: 730px){a.articles img{vertical-align:middle}}@media (max-width: 730px){a.articles{max-width:200px;margin:5px auto 20px;font-size:22px;padding:10px 20px 10px}}
+.awards-wrap{background:#f8f8f8}@media (max-width: 730px){.awards-wrap{margin:25px 0 0}}
+.awards-title,.badges-title{font-size:32px;text-align:center;display:block;color:#000;font-family:"Source Sans Pro",sans-serif;font-weight:700;margin-top:70px;margin-bottom:27px}@media (max-width: 730px){.awards-title,.badges-title{font-size:27px;margin-top:30px;margin-bottom:10px}}
+.badges-title{margin-top:49px !important}@media (max-width: 730px){.badges-title{margin-top:20px !important}}
+.awards,.badges{*zoom:expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");*zoom:1;padding:13px 0 46px;list-style-type:none;text-align:center}.awards:before,.badges:before,.awards:after,.badges:after{content:".";display:block;height:0;overflow:hidden}.awards:after,.badges:after{clear:both}.awards li,.badges li{display:inline-block;vertical-align:middle;margin-left:10%}.awards li img,.badges li img{display:block}@media (max-width: 998px){.awards li img,.badges li img{padding:15px 0 0}}@media (max-width: 400px){.awards li img,.badges li img{margin:0 auto;display:block}}.awards li.badge1,.badges li.badge1{margin-left:0px}.awards li.badge6 img,.badges li.badge6 img{padding:0 0 17px}@media (max-width: 400px){.awards li.badge6 img,.badges li.badge6 img{padding:15px 0 0}}.awards li.itemLast,.badges li.itemLast{margin-right:0}@media (max-width: 998px){.awards li,.badges li{margin-left:44px}}@media (max-width: 400px){.awards li,.badges li{margin:0 auto;display:block}}@media (max-width: 998px){.awards,.badges{margin:0 auto;display:table;text-align:center}}@media (max-width: 400px){.awards,.badges{padding:0px 0 35px}}
+.container-badges{padding:40px 0}@media (max-width: 730px){.container-badges{padding:12px 0 20px}}
+.badges{text-align:center;padding-top:4px;padding-bottom:21px}.badges li{margin-right:35px}@media (max-width: 400px){.badges li{margin-right:0px}}
+.address-wrap{background:#e8e8ed url(../images/bg-address.jpg) no-repeat center}@media (max-width: 730px){.address-wrap{background:none;background-color:#e8e8ed}}
+.offices{font-size:20px;font-family:"Source Sans Pro",sans-serif;color:#000000;line-height:1.5;background:url(../images/fax.png) 6px 75% no-repeat}@media (max-width: 730px){.offices{font-size:18px}.offices p{margin:0}}
+.office-title{width:78%;display:block;margin-bottom:0px;font-weight:700;margin-top:28px}@media (max-width: 730px){.office-title{margin-top:0px}}
+.office-address{padding-left:41px;display:block;background:url(../images/address.png) 6px 8px no-repeat}@media (max-width: 730px){.office-address{margin-top:-10px}}
+a.office-map-link{display:block;margin-left:30px;font-size:18px;font-weight:700;color:#2a2d89}a.office-map-link:hover,a.office-map-link:focus,a.office-map-link:active,a.office-map-link.current{color:#109949}.container-address{padding:30px 0}@media (max-width: 998px){.container-address{padding:30px 10px}}@media (max-width: 730px){.container-address{padding:0px 15px}}
+.office-phone-local{display:block;padding-left:41px;margin-bottom:29px}@media (max-width: 730px){.office-phone-local{margin-bottom:15px}}
+.office-phone-tracking{background:url(../images/phone.png) 6px 2px no-repeat}@media (max-width: 730px){.office-phone-tracking{margin-top:-15px}}
+.title-contact,.title-short-form{font-family:"Source Sans Pro",sans-serif;font-size:32px;font-weight:700;color:#000;margin-bottom:10px}@media (max-width: 750px){.title-contact,.title-short-form{font-size:27px}}
+.contact-info{width:31.28834%;float:left;margin-right:-100%;margin-left:0%;clear:none}.contact-info a{text-decoration:none;font-size:18px;color:#000000}@media (max-width: 970px){.contact-info{width:34.28834%}}@media (max-width: 890px){.contact-info{width:42.28834%}}@media (max-width: 730px){.contact-info{width:auto;margin:0 auto;float:none}}
+#intakeFormISubmit{background:#2a3182;color:#ffffff;border:none}a.btn-short-form{display:none;clear:both;max-width:270px;margin:15px auto 0px;background:#2a3182;color:#ffffff;border-radius:5px;padding:15px 10px 15px 30px;text-decoration:none;position:relative;text-align:center;font-size:18px;border-top:solid 2px #4c51e7;font-family:"Source Sans Pro",sans-serif;text-transform:uppercase}a.btn-short-form:before{position:absolute;content:"";width:17px;height:18px;background:url(../images/email-icon.png) 0 0 no-repeat;left:6%;top:20px}a.btn-short-form:hover,a.btn-short-form:focus,a.btn-short-form.current{color:#fff}@media (max-width: 730px){a.btn-short-form{display:block}}
+.short-form{width:48.46626%;float:right;margin-left:0;margin-right:0;clear:none;width:50.3%;display:block;position:relative;padding:0 0 0 4.8%;margin-top:0px}.short-form #containerIntakeFormShortAutofill{color:#0b5aa1;font-size:16px;font-family:"Source Sans Pro",sans-serif}.short-form #containerIntakeFormShortAutofill p{color:#000;font-size:16px;font-family:"Source Sans Pro",sans-serif;padding-bottom:0px}.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight input,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight textarea{color:#232e36;font-size:16px;border:none;width:100%;padding:14px 46px;margin:12px 0}.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight input:hover,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight input:focus,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight input:active,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight input.current,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight textarea:hover,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight textarea:focus,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight textarea:active,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight textarea.current{border:none;background:#fff}.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight input#intakeFormShortName,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight textarea#intakeFormShortName{background:#fff url(../images/name.png) no-repeat 18px center}.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight input#intakeFormShortEmail,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight textarea#intakeFormShortEmail{background:#fff url(../images/email.png) no-repeat 18px center}.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight input#intakeFormShortPhone,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight textarea#intakeFormShortPhone{background:#fff url(../images/phone.png) no-repeat 18px center;margin-right:0}.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight input#intakeFormShortMessage,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight textarea#intakeFormShortMessage{background:#fff url(../images/description.png) no-repeat 18px 20px}.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formHighlight textarea{display:block;width:100%;clear:both;font-size:16px;color:#232e36;height:141px}.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formCheck strong{font-weight:400;color:#000000}.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formCheck a{color:#000000}.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formCheck a:hover,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formCheck a:focus,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formCheck a:active,.short-form #containerIntakeFormShortAutofill #intakeFormShortAutofill fieldset .formCheck a.current{text-decoration:none;color:#109949}@media (max-width: 730px){.short-form{display:none}}
+#formError strong{color:red !important}#intakeFormShortAutofillSubmit{margin:28px 0 35px}#intakeFormShortDisclaimer{width:100%}@media (max-width: 850px){#attorneyProfile img.attorneyProfilePhoto{float:none}}
+@media (max-width: 870px){#intakeFormI fieldset input,#intakeFormI fieldset select{width:90%}}
+@media (max-width: 870px){#intakeFormI fieldset textarea{width:90%}}
+@media (max-width: 870px){#containerEmailObfuscation fieldset input,#intakeFormI fieldset select{width:90%}}
+@media (max-width: 870px){#containerEmailObfuscation fieldset textarea{width:90%}}
+.Contact .formCheck,.E-mail .formCheck{font-size:15px}.footer-wrap{background:#1f1f21}.fine-print{font-family:"Source Sans Pro",sans-serif;font-size:15px;text-align:center;display:block;margin:51px 0;color:#fff;line-height:1.5}.fine-print a{color:#fff;font-size:15px}.fine-print a:hover,.fine-print a:focus,.fine-print a:active{color:#109949}@media (max-width: 730px){.fine-print{margin:30px 0 20px}}
+.copyright{display:inline;padding:0;margin:0 10px 0 0}.branding{display:inline;padding:0}a.back-to-top{display:none;max-width:200px;position:relative;font-size:16px;font-weight:400;color:#fff;text-decoration:none;text-align:center;padding:15px 0px;outline:none;background:#109949;font-family:"Source Sans Pro",sans-serif;text-transform:uppercase}@media (max-width: 730px){a.back-to-top{float:none;margin:0px auto 30px;display:block;width:50%}}
+
+/* My CSS */
+.home .video{
+	display: none;
+}
+.column-side .video{
+	display: none;
+}
+.pure-button {
+    /* Structure */
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+/* Firefox: Get rid of the inner focus border */
+.pure-button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+/* Inherit .pure-g styles */
+.pure-button-group {
+    letter-spacing: -0.31em; /* Webkit: collapse white-space between units */
+    *letter-spacing: normal; /* reset IE < 8 */
+    *word-spacing: -0.43em; /* IE < 8: collapse white-space between units */
+    text-rendering: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
+}
+
+.opera-only :-o-prefocus,
+.pure-button-group {
+    word-spacing: -0.43em;
+}
+
+.pure-button-group .pure-button {
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+/*csslint outline-none:false*/
+
+.pure-button {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #444; /* rgba not supported (IE 8) */
+    color: rgba(0, 0, 0, 0.80); /* rgba supported */
+    border: 1px solid #999;  /*IE 6/7/8*/
+    border: none rgba(0, 0, 0, 0);  /*IE9 + everything else*/
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.pure-button-hover,
+.pure-button:hover,
+.pure-button:focus {
+    /* csslint ignore:start */
+    filter: alpha(opacity=90);
+    /* csslint ignore:end */
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+.pure-button:focus {
+    outline: 0;
+}
+.pure-button-active,
+.pure-button:active {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+    border-color: #000\9;
+}
+
+.pure-button[disabled],
+.pure-button-disabled,
+.pure-button-disabled:hover,
+.pure-button-disabled:focus,
+.pure-button-disabled:active {
+    border: none;
+    background-image: none;
+    /* csslint ignore:start */
+    filter: alpha(opacity=40);
+    /* csslint ignore:end */
+    opacity: 0.40;
+    cursor: not-allowed;
+    box-shadow: none;
+    pointer-events: none;
+}
+
+.pure-button-hidden {
+    display: none;
+}
+
+.pure-button-primary,
+.pure-button-selected,
+a.pure-button-primary,
+a.pure-button-selected {
+    background-color: rgb(43, 49, 135);
+    color: #fff;
+}
+
+/* Button Groups */
+.pure-button-group .pure-button {
+    margin: 0;
+    border-radius: 0;
+    border-right: 1px solid #111;  /* fallback color for rgba() for IE7/8 */
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.pure-button-group .pure-button:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.pure-button-group .pure-button:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-right: none;
+}
+
+/*csslint box-model:false*/
+/*
+Box-model set to false because we're setting a height on select elements, which
+also have border and padding. This is done because some browsers don't render
+the padding. We explicitly set the box-model for select elements to border-box,
+so we can ignore the csslint warning.
+*/
+
+.pure-form input[type="text"],
+.pure-form input[type="password"],
+.pure-form input[type="email"],
+.pure-form input[type="url"],
+.pure-form input[type="date"],
+.pure-form input[type="month"],
+.pure-form input[type="time"],
+.pure-form input[type="datetime"],
+.pure-form input[type="datetime-local"],
+.pure-form input[type="week"],
+.pure-form input[type="number"],
+.pure-form input[type="search"],
+.pure-form input[type="tel"],
+.pure-form input[type="color"],
+.pure-form select,
+.pure-form textarea {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.pure-form input:not([type]) {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/* Chrome (as of v.32/34 on OS X) needs additional room for color to display. */
+/* May be able to remove this tweak as color inputs become more standardized across browsers. */
+.pure-form input[type="color"] {
+    padding: 0.2em 0.5em;
+}
+
+
+.pure-form input[type="text"]:focus,
+.pure-form input[type="password"]:focus,
+.pure-form input[type="email"]:focus,
+.pure-form input[type="url"]:focus,
+.pure-form input[type="date"]:focus,
+.pure-form input[type="month"]:focus,
+.pure-form input[type="time"]:focus,
+.pure-form input[type="datetime"]:focus,
+.pure-form input[type="datetime-local"]:focus,
+.pure-form input[type="week"]:focus,
+.pure-form input[type="number"]:focus,
+.pure-form input[type="search"]:focus,
+.pure-form input[type="tel"]:focus,
+.pure-form input[type="color"]:focus,
+.pure-form select:focus,
+.pure-form textarea:focus {
+    outline: 0;
+    border-color: #129FEA;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.pure-form input:not([type]):focus {
+    outline: 0;
+    border-color: #129FEA;
+}
+
+.pure-form input[type="file"]:focus,
+.pure-form input[type="radio"]:focus,
+.pure-form input[type="checkbox"]:focus {
+    outline: thin solid #129FEA;
+    outline: 1px auto #129FEA;
+}
+.pure-form .pure-checkbox,
+.pure-form .pure-radio {
+    margin: 0.5em 0;
+    display: block;
+}
+
+.pure-form input[type="text"][disabled],
+.pure-form input[type="password"][disabled],
+.pure-form input[type="email"][disabled],
+.pure-form input[type="url"][disabled],
+.pure-form input[type="date"][disabled],
+.pure-form input[type="month"][disabled],
+.pure-form input[type="time"][disabled],
+.pure-form input[type="datetime"][disabled],
+.pure-form input[type="datetime-local"][disabled],
+.pure-form input[type="week"][disabled],
+.pure-form input[type="number"][disabled],
+.pure-form input[type="search"][disabled],
+.pure-form input[type="tel"][disabled],
+.pure-form input[type="color"][disabled],
+.pure-form select[disabled],
+.pure-form textarea[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.pure-form input:not([type])[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+.pure-form input[readonly],
+.pure-form select[readonly],
+.pure-form textarea[readonly] {
+    background-color: #eee; /* menu hover bg color */
+    color: #777; /* menu text color */
+    border-color: #ccc;
+}
+
+.pure-form input:focus:invalid,
+.pure-form textarea:focus:invalid,
+.pure-form select:focus:invalid {
+    color: #b94a48;
+    border-color: #e9322d;
+}
+.pure-form input[type="file"]:focus:invalid:focus,
+.pure-form input[type="radio"]:focus:invalid:focus,
+.pure-form input[type="checkbox"]:focus:invalid:focus {
+    outline-color: #e9322d;
+}
+.pure-form select {
+    /* Normalizes the height; padding is not sufficient. */
+    height: 2.25em;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.pure-form select[multiple] {
+    height: auto;
+}
+.pure-form label {
+    margin: 0.5em 0 0.2em;
+}
+.pure-form fieldset {
+    margin: 0;
+    padding: 0.35em 0 0.75em;
+    border: 0;
+}
+.pure-form legend {
+    display: block;
+    width: 100%;
+    padding: 0.3em 0;
+    margin-bottom: 0.3em;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.pure-form-stacked input[type="text"],
+.pure-form-stacked input[type="password"],
+.pure-form-stacked input[type="email"],
+.pure-form-stacked input[type="url"],
+.pure-form-stacked input[type="date"],
+.pure-form-stacked input[type="month"],
+.pure-form-stacked input[type="time"],
+.pure-form-stacked input[type="datetime"],
+.pure-form-stacked input[type="datetime-local"],
+.pure-form-stacked input[type="week"],
+.pure-form-stacked input[type="number"],
+.pure-form-stacked input[type="search"],
+.pure-form-stacked input[type="tel"],
+.pure-form-stacked input[type="color"],
+.pure-form-stacked input[type="file"],
+.pure-form-stacked select,
+.pure-form-stacked label,
+.pure-form-stacked textarea {
+    display: block;
+    margin: 0.25em 0;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.pure-form-stacked input:not([type]) {
+    display: block;
+    margin: 0.25em 0;
+}
+.pure-form-aligned input,
+.pure-form-aligned textarea,
+.pure-form-aligned select,
+/* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
+.pure-form-aligned .pure-help-inline,
+.pure-form-message-inline {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+.pure-form-aligned textarea {
+    vertical-align: top;
+}
+
+/* Aligned Forms */
+.pure-form-aligned .pure-control-group {
+    margin-bottom: 0.5em;
+}
+.pure-form-aligned .pure-control-group label {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10em;
+    margin: 0 1em 0 0;
+}
+.pure-form-aligned .pure-controls {
+    margin: 1.5em 0 0 11em;
+}
+
+/* Rounded Inputs */
+.pure-form input.pure-input-rounded,
+.pure-form .pure-input-rounded {
+    border-radius: 2em;
+    padding: 0.5em 1em;
+}
+
+/* Grouped Inputs */
+.pure-form .pure-group fieldset {
+    margin-bottom: 10px;
+}
+.pure-form .pure-group input,
+.pure-form .pure-group textarea {
+    display: block;
+    padding: 10px;
+    margin: 0 0 -1px;
+    border-radius: 0;
+    position: relative;
+    top: -1px;
+}
+.pure-form .pure-group input:focus,
+.pure-form .pure-group textarea:focus {
+    z-index: 3;
+}
+.pure-form .pure-group input:first-child,
+.pure-form .pure-group textarea:first-child {
+    top: 1px;
+    border-radius: 4px 4px 0 0;
+    margin: 0;
+}
+.pure-form .pure-group input:first-child:last-child,
+.pure-form .pure-group textarea:first-child:last-child {
+    top: 1px;
+    border-radius: 4px;
+    margin: 0;
+}
+.pure-form .pure-group input:last-child,
+.pure-form .pure-group textarea:last-child {
+    top: -2px;
+    border-radius: 0 0 4px 4px;
+    margin: 0;
+}
+.pure-form .pure-group button {
+    margin: 0.35em 0;
+}
+
+.pure-form .pure-input-1 {
+    width: 100%;
+}
+.pure-form .pure-input-3-4 {
+    width: 75%;
+}
+.pure-form .pure-input-2-3 {
+    width: 66%;
+}
+.pure-form .pure-input-1-2 {
+    width: 50%;
+}
+.pure-form .pure-input-1-3 {
+    width: 33%;
+}
+.pure-form .pure-input-1-4 {
+    width: 25%;
+}
+
+/* Inline help for forms */
+/* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
+.pure-form .pure-help-inline,
+.pure-form-message-inline {
+    display: inline-block;
+    padding-left: 0.3em;
+    color: #666;
+    vertical-align: middle;
+    font-size: 0.875em;
+}
+
+/* Block help for forms */
+.pure-form-message {
+    display: block;
+    color: #666;
+    font-size: 0.875em;
+}
+@media only screen and (max-width : 480px) {
+    .pure-form button[type="submit"] {
+        margin: 0.7em 0 0;
+    }
+
+    .pure-form input:not([type]),
+    .pure-form input[type="text"],
+    .pure-form input[type="password"],
+    .pure-form input[type="email"],
+    .pure-form input[type="url"],
+    .pure-form input[type="date"],
+    .pure-form input[type="month"],
+    .pure-form input[type="time"],
+    .pure-form input[type="datetime"],
+    .pure-form input[type="datetime-local"],
+    .pure-form input[type="week"],
+    .pure-form input[type="number"],
+    .pure-form input[type="search"],
+    .pure-form input[type="tel"],
+    .pure-form input[type="color"],
+    .pure-form label {
+        margin-bottom: 0.3em;
+        display: block;
+    }
+
+    .pure-group input:not([type]),
+    .pure-group input[type="text"],
+    .pure-group input[type="password"],
+    .pure-group input[type="email"],
+    .pure-group input[type="url"],
+    .pure-group input[type="date"],
+    .pure-group input[type="month"],
+    .pure-group input[type="time"],
+    .pure-group input[type="datetime"],
+    .pure-group input[type="datetime-local"],
+    .pure-group input[type="week"],
+    .pure-group input[type="number"],
+    .pure-group input[type="search"],
+    .pure-group input[type="tel"],
+    .pure-group input[type="color"] {
+        margin-bottom: 0;
+    }
+
+    .pure-form-aligned .pure-control-group label {
+        margin-bottom: 0.3em;
+        text-align: left;
+        display: block;
+        width: 100%;
+    }
+
+    .pure-form-aligned .pure-controls {
+        margin: 1.5em 0 0 0;
+    }
+
+    /* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
+    .pure-form .pure-help-inline,
+    .pure-form-message-inline,
+    .pure-form-message {
+        display: block;
+        font-size: 0.75em;
+        /* Increased bottom padding to make it group with its related input element. */
+        padding: 0.2em 0 0.8em;
+    }
+}
+
+.pure-form-stacked input[name="spam-field"],
+.pure-form input[name="spam-field"] {
+  display: none;
+}
