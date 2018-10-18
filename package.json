@@ -1,0 +1,22 @@
+{
+  "name": "gcorwin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "puppet.js",
+  "scripts": {
+    "puppet": "node puppet.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davemcorwin/gcorwin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davemcorwin/gcorwin/issues"
+  },
+  "homepage": "https://github.com/davemcorwin/gcorwin#readme",
+  "dependencies": {
+    "puppeteer": "^1.9.0"
+  }
+}
