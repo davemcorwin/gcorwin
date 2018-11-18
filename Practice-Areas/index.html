@@ -63,7 +63,7 @@
     }
   </script>
 
-</head>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script></head>
 
 <body class="design Practice-Areas Practice-Areas Practice-Areas">
   <div class="header-wrap">
@@ -352,7 +352,7 @@ The automatically generated embedded map requires a street address, locality, an
 
       </div>
       <div class="short-form">
-        <form class="pure-form pure-form-stacked" name="short-contact-form" netlify-honeypot="spam-field" action="thank-you" netlify>
+        <form class="pure-form pure-form-stacked" name="short-contact-form" netlify-recaptcha netlify-honeypot="spam-field" action="thank-you" netlify>
           <fieldset>
             <legend>
               <h4 class="title-contact">How Can We Help You?</h4>
@@ -391,6 +391,8 @@ The automatically generated embedded map requires a street address, locality, an
             </label>
 
           </fieldset>
+          <div class="g-recaptcha" data-sitekey="6Lfwg3sUAAAAACGgIkDmRXu8cCDh4wydQloK_knm"></div>
+          </br>
           <button type="submit" class="pure-button pure-button-primary">Send</button>
         </form>
       </div>
@@ -415,7 +417,7 @@ The automatically generated embedded map requires a street address, locality, an
   <script src="/video-transcripts.findlaw.com/includes/scripts/flDefault-1.0.0.js">//</script>
   <script src="/design/scripts/flScripts-1.0.1.js">//</script>
   <script src="/design/scripts/init.js">//</script>
-  <script src="/design/scripts/modernizr-latest.js">//</script>
+  <script src="/design/scripts/modernizr-latest.js">//</script><script src="/design/scripts/form.js">//</script>
 
 
 

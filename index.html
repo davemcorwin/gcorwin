@@ -51,12 +51,6 @@
   <link rel="canonical" href="index.html" />
 
   <!-- No flTag Header -->
-
-
-
-
-
-
   <script type="text/javascript">
     var fs3_inPublish = true; // a flag to mark publish mode
     var FSSitePath = '';
@@ -65,6 +59,7 @@
     }
   </script>
 
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body class="design home Home  ">
@@ -389,8 +384,8 @@ The automatically generated embedded map requires a street address, locality, an
       </div>
 
       <div class="short-form">
-        <form class="pure-form pure-form-stacked" name="short-contact-form" netlify-honeypot="spam-field" action="thank-you"
-          netlify>
+        <form class="pure-form pure-form-stacked" name="short-contact-form" netlify-recaptcha netlify-honeypot="spam-field"
+          action="thank-you" netlify>
           <fieldset>
             <legend>
               <h4 class="title-contact">How Can We Help You?</h4>
@@ -430,7 +425,7 @@ The automatically generated embedded map requires a street address, locality, an
             </label>
 
           </fieldset>
-          <div data-netlify-recaptcha></div>
+          <div class="g-recaptcha" data-sitekey="6Lfwg3sUAAAAACGgIkDmRXu8cCDh4wydQloK_knm"></div>
           </br>
           <button type="submit" class="pure-button pure-button-primary">Send</button>
         </form>
@@ -458,6 +453,7 @@ The automatically generated embedded map requires a street address, locality, an
   <script src="/design/scripts/flScripts-1.0.1.js">//</script>
   <script src="/design/scripts/init.js">//</script>
   <script src="/design/scripts/modernizr-latest.js">//</script>
+  <script src="/design/scripts/form.js">//</script>
   <!-- END flTag Footer -->
 </body>
 
